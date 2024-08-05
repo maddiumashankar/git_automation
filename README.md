@@ -10,7 +10,7 @@ This is a Bash script that automates common Git tasks, including initializing a 
 - Allows the user to add all files or specify files to add.
 - Commits changes with a user-provided commit message.
 - Creates and switches to a new branch if specified.
-- Adds a remote repository if a URL is provided.
+- Adds a remote repository if a URL is provided if it is already exits then handles the error.
 - Pushes changes to the specified remote and branch.
 
 ## Usage
